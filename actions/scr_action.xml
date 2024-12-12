@@ -1,0 +1,451 @@
+<actions>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.Doctor</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.SMJ_Doctor1</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.SMJ_Doctor2</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_Checkbox.Childcare</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_Checkbox.SMJ_Childcare1</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_Checkbox_alwaysStartActive.SMJ_Childcare1</key>
+    <value>False</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.Warden</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_Checkbox.SMJ_Warden1</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.SMJ_Warden2</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.Handling</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.SMJ_Handling1</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.SMJ_Handling2</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.Growing</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_Checkbox.PlantCutting</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_Checkbox.SMJ_PlantCutting1</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_Checkbox.Smithing</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_Checkbox.SMJ_Smithing1</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.Crafting</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.SMJ_Crafting1</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.Hauling</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.SMJ_Hauling1</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.SMJ_Hauling2</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.SMJ_Hauling3</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.SMJ_Hauling4</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.SMJ_Hauling5</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox.SMJ_Hauling6</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Numeric_naturalPriority.SMJ_Doctor1</key>
+    <value>1190</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Textbox_labelShort.SMJ_Doctor1</key>
+    <value>nurse</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox_alwaysStartActive.SMJ_Doctor1</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Numeric_naturalPriority.SMJ_Doctor2</key>
+    <value>1185</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Textbox_labelShort.SMJ_Doctor2</key>
+    <value>surgeon</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Numeric_priorityInType.DoctorTendToSelf</key>
+    <value>105</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Numeric_priorityInType.DoctorTendToSelfEmergency</key>
+    <value>115</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.DoctorFeedHumanlikes</key>
+    <value>SMJ_Doctor1</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.DoBillsMedicalHumanOperation</key>
+    <value>SMJ_Doctor2</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Numeric_priorityInType.DoctorRescue</key>
+    <value>95</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.DoctorRescue</key>
+    <value>SMJ_Doctor1</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.DoctorFeedAnimals</key>
+    <value>SMJ_Doctor1</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.DoBillsMedicalAnimalOperation</key>
+    <value>SMJ_Doctor2</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.TakeToBedToOperate</key>
+    <value>SMJ_Doctor2</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.VisitSickPawn</key>
+    <value>SMJ_Doctor1</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_RadioButtons.FeedHemogen</key>
+    <value>SMJ_Doctor1</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_Numeric_naturalPriority.SMJ_Childcare1</key>
+    <value>1180</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_Textbox_labelShort.SMJ_Childcare1</key>
+    <value>teacher</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_RadioButtons.ChildcarerTeach</key>
+    <value>SMJ_Childcare1</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_Numeric_priorityInType.ExtractSkull</key>
+    <value>50</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_RadioButtons.ExtractSkull</key>
+    <value>SMJ_Hauling4</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Numeric_naturalPriority.Warden</key>
+    <value>1130</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox_alwaysStartActive.Warden</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_Numeric_naturalPriority.SMJ_Warden1</key>
+    <value>1090</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_Textbox_labelShort.SMJ_Warden1</key>
+    <value>convert</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_Numeric_naturalPriority.SMJ_Warden2</key>
+    <value>1080</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Textbox_labelShort.SMJ_Warden2</key>
+    <value>recruit</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.ChatWithPrisoner</key>
+    <value>SMJ_Warden2</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_RadioButtons.EnslavePrisoner</key>
+    <value>SMJ_Warden2</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_RadioButtons.SuppressSlave</key>
+    <value>SMJ_Warden2</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_RadioButtons.ConvertPrisoner</key>
+    <value>SMJ_Warden1</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Numeric_naturalPriority.SMJ_Handling1</key>
+    <value>1120</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Textbox_labelShort.SMJ_Handling1</key>
+    <value>rope</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Numeric_naturalPriority.SMJ_Handling2</key>
+    <value>1040</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Textbox_labelShort.SMJ_Handling2</key>
+    <value>tame</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Checkbox_alwaysStartActive.SMJ_Handling1</key>
+    <value>True</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.TakeToPen</key>
+    <value>SMJ_Handling1</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.Tame</key>
+    <value>SMJ_Handling2</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.Replant</key>
+    <value>PlantCutting</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_Numeric_naturalPriority.SMJ_PlantCutting1</key>
+    <value>650</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_Textbox_labelShort.SMJ_PlantCutting1</key>
+    <value>prune</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_RadioButtons.PruneGauranlenTree</key>
+    <value>SMJ_PlantCutting1</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_Numeric_naturalPriority.SMJ_Smithing1</key>
+    <value>480</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_Textbox_labelShort.SMJ_Smithing1</key>
+    <value>mech</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_RadioButtons.RepairMech</key>
+    <value>SMJ_Smithing1</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_RadioButtons.DoBillsMechGestator</key>
+    <value>SMJ_Smithing1</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_RadioButtons.DoBillsSubcoreEncoder</key>
+    <value>SMJ_Smithing1</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_Numeric_priorityInType.DoBillsSubcoreEncoder</key>
+    <value>190</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Numeric_naturalPriority.SMJ_Crafting1</key>
+    <value>440</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Textbox_labelShort.SMJ_Crafting1</key>
+    <value>chemistry</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.DoBillsProduceDrugs</key>
+    <value>SMJ_Crafting1</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Numeric_naturalPriority.SMJ_Hauling1</key>
+    <value>50</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Textbox_labelShort.SMJ_Hauling1</key>
+    <value>merge</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Numeric_naturalPriority.SMJ_Hauling2</key>
+    <value>1110</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Textbox_labelShort.SMJ_Hauling2</key>
+    <value>caravan</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Numeric_naturalPriority.SMJ_Hauling3</key>
+    <value>1140</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Textbox_labelShort.SMJ_Hauling3</key>
+    <value>refuel</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Numeric_naturalPriority.SMJ_Hauling4</key>
+    <value>1070</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Textbox_labelShort.SMJ_Hauling4</key>
+    <value>cremate</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Numeric_naturalPriority.SMJ_Hauling5</key>
+    <value>1010</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Textbox_labelShort.SMJ_Hauling5</key>
+    <value>fill</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Numeric_naturalPriority.SMJ_Hauling6</key>
+    <value>620</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Textbox_labelShort.SMJ_Hauling6</key>
+    <value>haul to</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.RearmTurrets</key>
+    <value>SMJ_Hauling3</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.Refuel</key>
+    <value>SMJ_Hauling3</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.UnloadCarriers</key>
+    <value>SMJ_Hauling2</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.HelpGatheringItemsForCaravan</key>
+    <value>SMJ_Hauling2</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.LoadTransporters</key>
+    <value>SMJ_Hauling2</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Numeric_priorityInType.Strip</key>
+    <value>80</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.Strip</key>
+    <value>SMJ_Hauling4</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.HaulCorpses</key>
+    <value>SMJ_Hauling4</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.DoBillsCremate</key>
+    <value>SMJ_Hauling4</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.TakeBeerOutOfFermentingBarrel</key>
+    <value>SMJ_Hauling5</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.FillFermentingBarrel</key>
+    <value>SMJ_Hauling5</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.HaulMerge</key>
+    <value>SMJ_Hauling1</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_RadioButtons.EmptyEggBox</key>
+    <value>SMJ_Hauling5</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Ideology">
+    <key>SMJ_RadioButtons.HaulToBiosculpterPod</key>
+    <value>SMJ_Hauling3</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_RadioButtons.HaulToGeneBank</key>
+    <value>SMJ_Hauling6</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_RadioButtons.CarryToGeneExtractor</key>
+    <value>SMJ_Hauling6</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_RadioButtons.CarryToGrowthVat</key>
+    <value>SMJ_Hauling6</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_RadioButtons.HaulToGrowthVat</key>
+    <value>SMJ_Hauling3</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_RadioButtons.EmptyWasteContainer</key>
+    <value>SMJ_Hauling6</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_RadioButtons.HaulMechsToCharger</key>
+    <value>SMJ_Hauling6</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_RadioButtons.CarryToSubcoreScanner</key>
+    <value>SMJ_Hauling6</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting" MayRequire="Ludeon.Rimworld.Biotech">
+    <key>SMJ_RadioButtons.HaulToBase</key>
+    <value>SMJ_Hauling6</value>
+  </li>
+  <li Class="XmlExtensions.Action.SetSetting">
+    <key>SMJ_Numeric_priorityInType.Repair</key>
+    <value>86</value>
+  </li>
+  <!-- <li Class="XmlExtensions.Action.SetSetting"><key></key><value>True</value></li> -->
+</actions>
