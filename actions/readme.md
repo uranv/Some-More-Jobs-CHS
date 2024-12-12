@@ -4,7 +4,6 @@ The inbuilt preset is implemented using a series of 'XmlExtensions.Action.SetSet
 
 In the case when lots of changes are made, it is recommended to directly edit the 'preset.xlsx'and use the automatically generated 'action.csv' to avoid possible errors.
 
----
 
 原作者内置的预设通过'XmlExtensions.Action.SetSetting'完成，因此可以方便地从'Settings.xml'中提取出所有修改内容并整理到一个csv文件中。我们可以直接修改csv中的内容再重新生成<actions>...</actions>部分放回xml配置文件中。当然，如果修改内容很多的话，推荐直接在‘/configs/preset.xlsx'中修改并使用自动生成的actions内容以减少出错的可能。
 
