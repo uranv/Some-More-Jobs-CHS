@@ -23,7 +23,7 @@ def extract_settings_from_xml(file_path):
     return results
 
 if __name__ == "__main__":
-    file_path = "scr_action.xml"  # Replace with your XML file path
+    file_path = "src_action.xml"  # Replace with your XML file path
     extracted_data = extract_settings_from_xml(file_path)
     df = pd.DataFrame(extracted_data)
-    df.to_csv('scr_action.csv', index=False, encoding='utf-8')
+    df.to_csv('src_action.csv', index=False, encoding='utf-8')
