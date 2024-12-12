@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8' ?>
 <actions>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Biotech'>
     <key>SMJ_Checkbox.Childcare</key>
@@ -385,322 +386,322 @@
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Ideology'>
     <key>SMJ_Textbox_labelShort.SMJ_Childcare1</key>
-    <value>½ÌÓı</value>
+    <value>æ•™è‚²</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Ideology'>
     <key>SMJ_Textbox_pawnLabel.SMJ_Childcare1</key>
-    <value>½ÌÊ¦</value>
+    <value>æ•™å¸ˆ</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Ideology'>
     <key>SMJ_Textbox_gerundLabel.SMJ_Childcare1</key>
-    <value>ÕıÔÚ½ÌÊÚ</value>
+    <value>æ•™æˆ</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Ideology'>
     <key>SMJ_Textbox_verb.SMJ_Childcare1</key>
-    <value>½ÌÊÚ</value>
+    <value>æ•™æˆ</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Ideology'>
     <key>SMJ_Textbox_description.SMJ_Childcare1</key>
-    <value>#_..¸ºÔğ½ÌÓıÖ³ÃñµØµÄº¢×ÓÃÇ¡£(±£Óı)</value>
+    <value>è´Ÿè´£æ•™è‚²æ®–æ°‘åœ°çš„å­©å­ä»¬ã€‚(ä¿è‚²)</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_labelShort.SMJ_Crafting1</key>
-    <value>ÖÆÒ©</value>
+    <value>åˆ¶è¯</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_pawnLabel.SMJ_Crafting1</key>
-    <value>Ò©¼ÁÊ¦</value>
+    <value>è¯å‰‚å¸ˆ</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_gerundLabel.SMJ_Crafting1</key>
-    <value>ÕıÔÚÖÆÒ©</value>
+    <value>åˆ¶è¯</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_verb.SMJ_Crafting1</key>
-    <value>ÖÆÒ©</value>
+    <value>åˆ¶è¯</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_description.SMJ_Crafting1</key>
-    <value>#_..¸ºÔğºÏ³ÉÒ©Îï¡£(ÖÆÔì)</value>
+    <value>è´Ÿè´£åˆæˆè¯ç‰©ã€‚(åˆ¶é€ )</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_labelShort.SMJ_Doctor1</key>
-    <value>»¤Àí</value>
+    <value>æŠ¤ç†</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_pawnLabel.SMJ_Doctor1</key>
-    <value>»¤Ê¿</value>
+    <value>æŠ¤å£«</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_gerundLabel.SMJ_Doctor1</key>
-    <value>ÕıÔÚ»¤Àí</value>
+    <value>æŠ¤ç†</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_verb.SMJ_Doctor1</key>
-    <value>»¤Àí</value>
+    <value>æŠ¤ç†</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_description.SMJ_Doctor1</key>
-    <value>#_..¸ºÔğ¼òµ¥µÄÕÕ¿´¡¢»¤Àí²¡ÈË¡£(Ò½Éú)</value>
+    <value>è´Ÿè´£ç®€å•çš„ç…§çœ‹ã€æŠ¤ç†ç—…äººã€‚(åŒ»ç”Ÿ)</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_labelShort.SMJ_Doctor2</key>
-    <value>ÊÖÊõ</value>
+    <value>æ‰‹æœ¯</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_pawnLabel.SMJ_Doctor2</key>
-    <value>ÊÖÊõÒ½Ê¦</value>
+    <value>æ‰‹æœ¯åŒ»å¸ˆ</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_gerundLabel.SMJ_Doctor2</key>
-    <value>ÕıÔÚÊÖÊõ</value>
+    <value>æ‰‹æœ¯</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_verb.SMJ_Doctor2</key>
-    <value>ÊÖÊõ</value>
+    <value>æ‰‹æœ¯</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_description.SMJ_Doctor2</key>
-    <value>#_..ÎªÈËÀàºÍ¶¯Îï×öÊÖÊõ¡£(Ò½Éú)</value>
+    <value>ä¸ºäººç±»å’ŒåŠ¨ç‰©åšæ‰‹æœ¯ã€‚(åŒ»ç”Ÿ)</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_labelShort.SMJ_Handling1</key>
-    <value>Ç£Òı</value>
+    <value>ç‰µå¼•</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_pawnLabel.SMJ_Handling1</key>
-    <value>Ç£Òı</value>
+    <value>ç‰µå¼•</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_gerundLabel.SMJ_Handling1</key>
-    <value>ÕıÔÚÇ£Òı</value>
+    <value>ç‰µå¼•</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_verb.SMJ_Handling1</key>
-    <value>Ç£Òı</value>
+    <value>ç‰µå¼•</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_description.SMJ_Handling1</key>
-    <value>¸ºÔğÇ£Òı¶¯Îï¡£(Ñ±ÊŞ)</value>
+    <value>è´Ÿè´£ç‰µå¼•åŠ¨ç‰©ã€‚(é©¯å…½)</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_labelShort.SMJ_Handling2</key>
-    <value>Ñ±·ş</value>
+    <value>é©¯æœ</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_pawnLabel.SMJ_Handling2</key>
-    <value>Ñ±ÑøÔ±</value>
+    <value>é©¯å…»å‘˜</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_gerundLabel.SMJ_Handling2</key>
-    <value>ÕıÔÚÑ±·ş</value>
+    <value>é©¯æœ</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_verb.SMJ_Handling2</key>
-    <value>Ñ±·ş</value>
+    <value>é©¯æœ</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_description.SMJ_Handling2</key>
-    <value>#_..Ñ±·şÒ°ÉúµÄ¶¯Îï¡£(Ñ±ÊŞ)</value>
+    <value>é©¯æœé‡ç”Ÿçš„åŠ¨ç‰©ã€‚(é©¯å…½)</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_labelShort.SMJ_Hauling1</key>
-    <value>ºÏ²¢</value>
+    <value>åˆå¹¶</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_pawnLabel.SMJ_Hauling1</key>
-    <value>°áÔË¹¤</value>
+    <value>æ¬è¿å·¥</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_gerundLabel.SMJ_Hauling1</key>
-    <value>ÕıÔÚºÏ²¢</value>
+    <value>åˆå¹¶</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_verb.SMJ_Hauling1</key>
-    <value>ºÏ²¢</value>
+    <value>åˆå¹¶</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_description.SMJ_Hauling1</key>
-    <value>½«´¢´æÖĞ·ÖÉ¢µÄÎïÆ·¶ÑµşÔÚÒ»Æğ£¬¼õÉÙÕ¼ÓÃ¿Õ¼ä¡£(°áÔË)</value>
+    <value>å°†å‚¨å­˜ä¸­åˆ†æ•£çš„ç‰©å“å †å åœ¨ä¸€èµ·ï¼Œå‡å°‘å ç”¨ç©ºé—´ã€‚(æ¬è¿)</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_labelShort.SMJ_Hauling2</key>
-    <value>Ô¶Õ÷</value>
+    <value>è¿œå¾</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_pawnLabel.SMJ_Hauling2</key>
-    <value>Ô¶Õ÷</value>
+    <value>è¿œå¾</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_gerundLabel.SMJ_Hauling2</key>
-    <value>×¼±¸Ô¶Õ÷</value>
+    <value>å‡†å¤‡è¿œå¾</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_verb.SMJ_Hauling2</key>
-    <value>×¼±¸Ô¶Õ÷</value>
+    <value>å‡†å¤‡è¿œå¾</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_description.SMJ_Hauling2</key>
-    <value>¸ºÔğ×¼±¸Ô¶Õ÷Îï×ÊÓëĞ¶ÏÂ»õÎï¡£(°áÔË)</value>
+    <value>è´Ÿè´£å‡†å¤‡è¿œå¾ç‰©èµ„ä¸å¸ä¸‹è´§ç‰©ã€‚(æ¬è¿)</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_labelShort.SMJ_Hauling3</key>
-    <value>Õû±¸</value>
+    <value>æ•´å¤‡</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_pawnLabel.SMJ_Hauling3</key>
-    <value>Õû±¸Ô±</value>
+    <value>æ•´å¤‡å‘˜</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_gerundLabel.SMJ_Hauling3</key>
-    <value>Õû±¸</value>
+    <value>æ•´å¤‡</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_verb.SMJ_Hauling3</key>
-    <value>Õû±¸</value>
+    <value>æ•´å¤‡</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_description.SMJ_Hauling3</key>
-    <value>#_..¸ºÔğÕû±¸ÅÚÌ¨¡¢Ìî³äÈ¼ÓÍµÈ½Ï¸ßÓÅÏÈ¼¶¹¤×÷¡£(°áÔË)</value>
+    <value>è´Ÿè´£æ•´å¤‡ç‚®å°ã€å¡«å……ç‡ƒæ²¹ç­‰è¾ƒé«˜ä¼˜å…ˆçº§å·¥ä½œã€‚(æ¬è¿)</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_labelShort.SMJ_Hauling4</key>
-    <value>·Ù»¯</value>
+    <value>ç„šåŒ–</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_pawnLabel.SMJ_Hauling4</key>
-    <value>·Ù»¯¹¤</value>
+    <value>ç„šåŒ–å·¥</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_gerundLabel.SMJ_Hauling4</key>
-    <value>ÕıÔÚ·Ù»¯</value>
+    <value>ç„šåŒ–</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_verb.SMJ_Hauling4</key>
-    <value>·Ù»¯</value>
+    <value>ç„šåŒ–</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_description.SMJ_Hauling4</key>
-    <value>#_..½«Ê¬ÌåµÈ»ğ»¯Ïú»Ù¡£(°áÔË)</value>
+    <value>å°†å°¸ä½“ç­‰ç«åŒ–é”€æ¯ã€‚(æ¬è¿)</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_labelShort.SMJ_Hauling5</key>
-    <value>Äğ¾Æ</value>
+    <value>é…¿é…’</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_pawnLabel.SMJ_Hauling5</key>
-    <value>Äğ¾Æ</value>
+    <value>é…¿é…’</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_gerundLabel.SMJ_Hauling5</key>
-    <value>ÕıÔÚÌî³ä</value>
+    <value>å¡«å……</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_verb.SMJ_Hauling5</key>
-    <value>Ìî³ä</value>
+    <value>å¡«å……</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_description.SMJ_Hauling5</key>
-    <value>¸ºÔğÄğ¾ÆºÍÂÑÏä¡£(°áÔË)</value>
+    <value>è´Ÿè´£é…¿é…’å’Œåµç®±ã€‚(æ¬è¿)</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_labelShort.SMJ_Hauling6</key>
-    <value>ÔËËÍ</value>
+    <value>è¿é€</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_pawnLabel.SMJ_Hauling6</key>
-    <value>°áÔË¹¤</value>
+    <value>æ¬è¿å·¥</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_gerundLabel.SMJ_Hauling6</key>
-    <value>ÕıÔÚÔËËÍ</value>
+    <value>è¿é€</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_verb.SMJ_Hauling6</key>
-    <value>ÔËËÍ</value>
+    <value>è¿é€</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_description.SMJ_Hauling6</key>
-    <value>#_..½øĞĞ½Ï¸ßÓÅÏÈ¼¶µÄ°áÔË¹¤×÷¡£(°áÔË)</value>
+    <value>è¿›è¡Œè¾ƒé«˜ä¼˜å…ˆçº§çš„æ¬è¿å·¥ä½œã€‚(æ¬è¿)</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Ideology'>
     <key>SMJ_Textbox_labelShort.SMJ_PlantCutting1</key>
-    <value>ĞŞ¼ô</value>
+    <value>ä¿®å‰ª</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Ideology'>
     <key>SMJ_Textbox_pawnLabel.SMJ_PlantCutting1</key>
-    <value>ĞŞ¼ô</value>
+    <value>ä¿®å‰ª</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Ideology'>
     <key>SMJ_Textbox_gerundLabel.SMJ_PlantCutting1</key>
-    <value>ÕıÔÚĞŞ¼ô</value>
+    <value>ä¿®å‰ª</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Ideology'>
     <key>SMJ_Textbox_verb.SMJ_PlantCutting1</key>
-    <value>ĞŞ¼ô</value>
+    <value>ä¿®å‰ª</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Ideology'>
     <key>SMJ_Textbox_description.SMJ_PlantCutting1</key>
-    <value>ĞŞ¼ôÄ¸Ê÷¡£(¸î³ı)</value>
+    <value>ä¿®å‰ªæ¯æ ‘ã€‚(å‰²é™¤)</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Biotech'>
     <key>SMJ_Textbox_labelShort.SMJ_Smithing1</key>
-    <value>»úĞµ</value>
+    <value>æœºæ¢°</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Biotech'>
     <key>SMJ_Textbox_pawnLabel.SMJ_Smithing1</key>
-    <value>»úĞµ¹¤</value>
+    <value>æœºæ¢°å·¥</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Biotech'>
     <key>SMJ_Textbox_gerundLabel.SMJ_Smithing1</key>
-    <value>ÕıÔÚ¶ÍÖÆ</value>
+    <value>é”»åˆ¶</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Biotech'>
     <key>SMJ_Textbox_verb.SMJ_Smithing1</key>
-    <value>¶ÍÖÆ</value>
+    <value>é”»åˆ¶</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Biotech'>
     <key>SMJ_Textbox_description.SMJ_Smithing1</key>
-    <value>»úĞµÌåÏà¹Ø¹¤×÷¡£(¶ÍÔì)</value>
+    <value>æœºæ¢°ä½“ç›¸å…³å·¥ä½œã€‚(é”»é€ )</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Ideology'>
     <key>SMJ_Textbox_labelShort.SMJ_Warden1</key>
-    <value>½Ì»¯</value>
+    <value>æ•™åŒ–</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Ideology'>
     <key>SMJ_Textbox_pawnLabel.SMJ_Warden1</key>
-    <value>½Ì»¯</value>
+    <value>æ•™åŒ–</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Ideology'>
     <key>SMJ_Textbox_gerundLabel.SMJ_Warden1</key>
-    <value>ÕıÔÚ½Ì»¯</value>
+    <value>æ•™åŒ–</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Ideology'>
     <key>SMJ_Textbox_verb.SMJ_Warden1</key>
-    <value>½Ì»¯</value>
+    <value>æ•™åŒ–</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting' MayRequire='Ludeon.Rimworld.Ideology'>
     <key>SMJ_Textbox_description.SMJ_Warden1</key>
-    <value>½Ì»¯Çô·¸¡£(¼à¹Ü)</value>
+    <value>æ•™åŒ–å›šçŠ¯ã€‚(ç›‘ç®¡)</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_labelShort.SMJ_Warden2</key>
-    <value>ÕĞÄ¼</value>
+    <value>æ‹›å‹Ÿ</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_pawnLabel.SMJ_Warden2</key>
-    <value>ÁÔÍ·</value>
+    <value>çŒå¤´</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_gerundLabel.SMJ_Warden2</key>
-    <value>ÕıÔÚÕĞÄ¼</value>
+    <value>æ‹›å‹Ÿ</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_verb.SMJ_Warden2</key>
-    <value>ÕĞÄ¼</value>
+    <value>æ‹›å‹Ÿ</value>
   </li>
   <li Class='XmlExtensions.Action.SetSetting'>
     <key>SMJ_Textbox_description.SMJ_Warden2</key>
-    <value>ÕĞÄ¼Çô·¸³ÉÎªÖ³ÃñÕß¡£(¼à¹Ü)</value>
+    <value>æ‹›å‹Ÿå›šçŠ¯æˆä¸ºæ®–æ°‘è€…ã€‚(ç›‘ç®¡)</value>
   </li>
 </actions>
