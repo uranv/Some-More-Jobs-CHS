@@ -1,8 +1,8 @@
 import pandas as pd
 
 if __name__ == "__main__":
-    dfchs = pd.read_csv('scr_action_chs.csv')
-    with open("scr_action_chs.xml","w") as f:
+    dfchs = pd.read_csv('src_action_chs.csv')
+    with open("src_action_chs.xml","w") as f:
         f.write("<actions>\n")
         for i in range(dfchs.shape[0]):
             if dfchs.iat[i,3]=='0':
