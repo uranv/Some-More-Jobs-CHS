@@ -1,24 +1,3 @@
-# 基本内容
-
-
-
-## 模组文件：
-
-https://github.com/uranv/Some-More-Jobs-CHS/releases/
-
-https://github.com/uranv/Some-More-Jobs-CHS/tree/main/some%20more%20jobs%20chs
-
-将文件夹 some more jobs chs 放入游戏根目录中Mods文件夹内，例如E:\SteamLibrary\steamapps\common\RimWorld\Mods；进入游戏后将本模组于原模组后加载即可使用。
-
-## 生成预设：
-https://github.com/uranv/Some-More-Jobs-CHS/tree/main/codes
-
-利用actions.py脚本，可以选择从1.CSV文件，或者2.XLSX表格文件中生成插入Settings.xml的\<actions\>...\</actions\>代码，详细说明见下文或codes文件夹内说明。
-
-
-
-
-
 # 生成自定义xml预设
 
 $\qquad$使用此文件夹内的‘actions.py’生成方便编辑的csv文件，再从csv文件生成可插入'Settings.xml'的预设。也可以通过修改此文件夹内的’preset.xlsx‘表格文件，直观地完成所有设置，再从修改后的‘preset.xlsx’生成修改的csv并进一步生成可插入‘Settings.xml’的预设。

@@ -19,7 +19,17 @@ def ChangeList(input_default, input_preset, output_csv = 'actions_from_xlsx.csv'
     with codecs.open(output_csv,"w", "utf-8-sig") as f:
         for item in different_indices:
             # change type | key | value | mayRequire
-            f.write( str(preset.iat[0,item[1]])+','\
+            if item[1] in [7,8]:
+                if preset.iat[item] == 1:
+                    f.write( str(preset.iat[0,item[1]])+','\
+                        +str(preset.iat[item[0],0])+',True,'\
+                        +str(preset.iat[item[0],9])+'\n')
+                elif preset.iat[item] == 0:
+                    f.write( str(preset.iat[0,item[1]])+','\
+                        +str(preset.iat[item[0],0])+',False,'\
+                        +str(preset.iat[item[0],9])+'\n')
+            else:
+                f.write( str(preset.iat[0,item[1]])+','\
                     +str(preset.iat[item[0],0])+','\
                     +str(preset.iat[item])+','\
                     +str(preset.iat[item[0],9])+'\n')
