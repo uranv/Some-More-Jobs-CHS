@@ -1,5 +1,6 @@
 # Build a translated preset or personalized preset fast and easy!
-
+[![zh-cn](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/uranv/Some-More-Jobs-CHS/blob/main/actions/readme.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/uranv/Some-More-Jobs-CHS/blob/main/actions/readme.en.md)
 The inbuilt preset is implemented using a series of 'XmlExtensions.Action.SetSetting' commands. This structure allows us to conveniently extract all the changes into a CSV file with a more readable format, using 'extract_action.py' in this folder. One could edit this CSV file to make a translated version of the preset, or add some additional changes to the preset. Then the CSV file is used to generate the xml codes to be reinserted into the 'Settings.xml'.
 
 In the case when lots of changes are made, it is recommended to directly edit the 'preset.xlsx'and use the automatically generated 'action.csv' to avoid possible errors.
