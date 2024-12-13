@@ -64,11 +64,11 @@ python 'actions.py' 2 'actions.csv'
 
 生成的文件可以插入'./RimWorld/Mods/some more jobs chs/1.5/Defs/Settings.xml'中，具体位置为下列代码框中注释之间，使用时可以直接在文本中查找注释内容快速到达位置。
 
-><!--以下为作者预设-->
+>\<!--以下为作者预设--\>
 >
-><!--以下为预设1-->
+>\<!--以下为预设1--\>
 >
-><!--以下为预设2-->
+>\<!--以下为预设2--\>
 
 ```xml
 <li Class="XmlExtensions.Setting.ApplyActions">
