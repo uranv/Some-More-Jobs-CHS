@@ -11,4 +11,4 @@
     <value>TRUE</value>
   </li>
 ```
-每个'XmlExtensions.Action.SetSetting'都包涵以下四个部分：【1】'SMJ_Checkbox'指示修改类型，【2】'PlantCutting'为修改的项目，【3】'TRUE'为修改后的值，以及可以缺省的【4】MayRequire='Ludeon.Rimworld.Ideology'表示该项修改的依赖。用于修改的csv文件中四列按此处同样顺序，每一列中可以存在的修改内容请参考‘/configs/default.xlsx'。
+每个'XmlExtensions.Action.SetSetting'都包涵以下四个部分：【1】'SMJ_Checkbox'指示修改类型，【2】'PlantCutting'为修改的项目，【3】'TRUE'为修改后的值，以及可以缺省的【4】MayRequire='Ludeon.Rimworld.Ideology'表示该项修改的依赖的dlc或其他mod。用于修改的csv文件中四列按此处同样顺序，每一列中可以存在的修改内容请参考‘/configs/default.xlsx'。
