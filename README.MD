@@ -102,7 +102,7 @@ python 'actions.py' 2 'actions.csv'
 
 将程序生成代码正确地插入到'Settings.xml'后，即可在游戏中通过对应按键一键应用自己的设定。当然，每次应用新的设置都需要先**重置所有设置**，并且应用后需要**重启游戏**来让新的设置生效。
 
-<img src="D:\Documents\GitHub\Some-More-Jobs-CHS\codes\Preview.jpg" alt="Preview" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/uranv/Some-More-Jobs-CHS/refs/heads/main/codes/Preview.jpg" alt="Preview" style="zoom:50%;" />
 
 #### 3. 从 XLSX 生成 CSV
 
