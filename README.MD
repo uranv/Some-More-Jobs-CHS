@@ -17,9 +17,9 @@ https://github.com/uranv/Some-More-Jobs-CHS/tree/main/codes
 
 ### 案例：从原作者预设（汉化）出发，生成自定义预设的xml
 
-+ 下载[原作者预设 author's preset.xlsx 文件](https://github.com/uranv/Some-More-Jobs-CHS/blob/main/codes/author's%20preset.xlsx)
++ 下载原作者预设 [author's preset.xlsx](https://github.com/uranv/Some-More-Jobs-CHS/blob/main/codes/author's%20preset.xlsx)  文件
 + 在excel表格内修改设置
-+ 使用(actions.py)[https://github.com/uranv/Some-More-Jobs-CHS/blob/main/codes/actions.py]生成xml文件
++ 使用 [actions.py](https://github.com/uranv/Some-More-Jobs-CHS/blob/main/codes/actions.py) 生成xml文件
 ```shell
 python 'actions.py' 3 'author's preset.xlsx' -d 'default.xlsx'
 python 'actions.py' 2 'actions_from_xlsx.csv'
