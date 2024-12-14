@@ -1,3 +1,10 @@
+# 作者: uranv
+# 日期: 2024-12-13
+# 发布于 https://github.com/uranv/Some-More-Jobs-CHS
+#---------------------------------------------------
+# 更新1 2024-12-14 15:00
+# 配合 xlsx: inType 补充了 mayRequire
+#---------------------------------------------------
 import pandas as pd
 import numpy as np
 import codecs
@@ -38,7 +45,7 @@ def ChangeList(input_default, input_preset, output_csv = 'actions_from_xlsx.csv'
         default = pd.read_excel(input_default, sheet_name=sheet, header=None).fillna(0)
         preset = pd.read_excel(input_preset, sheet_name=sheet, header=None).fillna(0)
         # 检查配置有效性    Check validity
-        check = np.sum(np.array(preset)[2:,1:], axis=0)
+        check = np.sum(np.array(preset)[3:,1:], axis=0)
         if np.where(check == 0)[0].size != 0:
             print( str(sheet)+'中有存在未分配工作类型！')
             return
@@ -53,25 +60,25 @@ def ChangeList(input_default, input_preset, output_csv = 'actions_from_xlsx.csv'
         with codecs.open(output_csv,"a", "utf-8-sig") as f:
             for item in different_indices:
                 # 改变 priorityInType
-                if item[0]==1: 
+                if item[0]==2: 
                     # SMJ_Numeric_priorityInType | workType | value | mayRequire
                     f.write( str(preset.iat[1,0])+','\
                             +str(preset.iat[0,item[1]])+','\
                             +str(preset.iat[item])+','\
                             +str(0)+'\n')
                 # 改变 workType 分配
-                elif item[0]>1 & preset.iat[item]==1: 
+                elif item[0]>2 and preset.iat[item]==1: 
                     # SMJ_RadioButtons | workType | job key assigned | mayRequire
                     f.write( str(preset.iat[0,0])+','\
                             +str(preset.iat[0,item[1]])+','\
                             +str(preset.iat[item[0],0])+','\
-                            +str(0)+'\n')
+                            +str(preset.iat[1,item[1]])+'\n')
     return
 
 # 从变动列表生成xml actions
 def BuildXml(input_csv, output_xml='actions_from_csv.xml'):
     df = pd.read_csv(input_csv)
-    with open(output_xml,"w") as f:
+    with codecs.open(output_xml,"w", "utf-8-sig") as f:
         f.write("<actions>\n")
         for i in range(df.shape[0]):
             if df.iat[i,3]=='0':
@@ -148,21 +155,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
