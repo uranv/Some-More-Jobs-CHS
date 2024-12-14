@@ -62,7 +62,7 @@ def ChangeList(input_default, input_preset, output_csv = 'actions_from_xlsx.csv'
                 # 改变 priorityInType
                 if item[0]==2: 
                     # SMJ_Numeric_priorityInType | workType | value | mayRequire
-                    f.write( str(preset.iat[1,0])+','\
+                    f.write( str(preset.iat[2,0])+','\
                             +str(preset.iat[0,item[1]])+','\
                             +str(preset.iat[item])+','\
                             +str(0)+'\n')
