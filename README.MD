@@ -15,7 +15,23 @@ https://github.com/uranv/Some-More-Jobs-CHS/tree/main/codes
 
 利用actions.py脚本，可以选择从1.CSV文件，或者2.XLSX表格文件中生成插入Settings.xml的\<actions\>...\</actions\>代码，详细说明见下文或codes文件夹内说明。
 
+### 案例：从原作者预设（汉化）出发，生成自定义预设的xml
 
++ 下载[原作者预设 author's preset.xlsx 文件](https://github.com/uranv/Some-More-Jobs-CHS/blob/main/codes/author's%20preset.xlsx)
++ 在excel表格内修改设置
++ 使用(actions.py)[https://github.com/uranv/Some-More-Jobs-CHS/blob/main/codes/actions.py]生成xml文件
+```shell
+python 'actions.py' 3 'author's preset.xlsx' -d 'default.xlsx'
+python 'actions.py' 2 'actions_from_xlsx.csv'
+```
++ 复制 actions_from_csv.xml 中所有内容，打开'./RimWorld/Mods/some more jobs chs/1.5/Defs/Settings.xml'，在记事本中直接查找以下字符，粘贴到“以下”和“以上”之间
+>\<!--以下为作者预设--\>
+>
+>\<!--以下为预设1--\>
+>
+>\<!--以下为预设2--\>
++ 进入游戏后在 XML Extensions 的设置界面中，首先重置所有设置，然后使用对应按键：使用模组作者预设；自定义预设1；自定义预设2
++ 重启游戏正确应用设置
 
 
 
