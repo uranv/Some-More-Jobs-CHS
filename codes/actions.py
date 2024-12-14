@@ -81,7 +81,10 @@ def BuildXml(input_csv, output_xml='actions_from_csv.xml'):
     with codecs.open(output_xml,"w", "utf-8-sig") as f:
         f.write("<actions>\n")
         for i in range(df.shape[0]):
-            if df.iat[i,3]=='0':
+            if df.iat[i,0] == 'MayRequire':
+                print(f'<警告> MayRequire存在变化')
+                continue
+            elif df.iat[i,3] == '0':
                 f.write("  <li Class='XmlExtensions.Action.SetSetting'>\n")        
             else:
                 f.write("  <li Class='XmlExtensions.Action.SetSetting' MayRequire='"+df.iat[i,3]+"'>\n")
